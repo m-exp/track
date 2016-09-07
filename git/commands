@@ -5,3 +5,12 @@ git commit -m "message"
 push
 	ex: git push origin master
 
+git init: starting git in a new directory
+git clone [url] [newname]
+git status 
+git status -s
+.gitignore 
+git diff
+git diff --staged
+git commmit  -a #: all files that are changed.
+git rm
