@@ -12,5 +12,14 @@ git status -s
 .gitignore 
 git diff
 git diff --staged
-git commmit  -a #: all files that are changed.
+git commmit  -a #: all files that are changed (and are tracked)
 git rm
+git rm --cached <file> : remove from staging area.
+git log options:
+	 -p -<number> --stat --pretty 
+	--pretty=oneline|small|full|fuller|=format:%foo
+	--graph
+limiting log:
+	-<n>, --since, --after, --until, --before, --author, --committer, --grep, -Sfunction_name
+
+ch3
